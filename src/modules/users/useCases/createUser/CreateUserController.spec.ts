@@ -6,7 +6,7 @@ import createConnection from "../../../../database/"
 
 let connection: Connection;
 
-describe("Authenticate User Controller", () => {
+describe("Authenticate User", () => {
 
   beforeAll(async () => {
     connection = await createConnection();

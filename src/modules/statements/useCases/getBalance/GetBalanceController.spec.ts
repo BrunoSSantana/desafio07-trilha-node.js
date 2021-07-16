@@ -8,7 +8,7 @@ import { v4 } from "uuid";
 
 let connection: Connection;
 
-describe("", () => {
+describe("Get Balance", () => {
   beforeAll(async () => {
     connection = await createConnection();
     await connection.runMigrations();

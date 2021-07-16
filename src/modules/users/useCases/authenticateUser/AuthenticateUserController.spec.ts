@@ -9,7 +9,7 @@ import { IncorrectEmailOrPasswordError } from "./IncorrectEmailOrPasswordError";
 
 let connection: Connection;
 
-describe("Authenticate User Controller", () => {
+describe("Authenticate User", () => {
 
   beforeAll(async () => {
     connection = await createConnection();
